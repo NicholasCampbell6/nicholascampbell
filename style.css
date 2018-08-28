@@ -1,0 +1,37 @@
+h1 {
+  color: #00ccff;
+}
+
+.container {
+  background-color: red;
+}
+
+body {
+  background-color: green;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(https://www.publicdomainpictures.net/pictures/120000/velka/rainbow-colors-background.jpg);
+}
+
+.navbar li {
+  display: inline-block;
+  padding-right: 100px;
+}
+
+.login {
+  float: right;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.login:active {
+  position: relative;
+  top: 5px;
+}
+
+.login:hover {
+  cursor: pointer;
+}
