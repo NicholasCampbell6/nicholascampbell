@@ -1,5 +1,5 @@
 h1 {
-  color: #00ccff;
+  color: #0099ff;
 }
 
 .container {
@@ -18,13 +18,17 @@ body {
 
 .navbar li {
   display: inline-block;
-  padding-right: 100px;
+  margin-right: 100px;
 }
+
+
 
 .login {
   float: right;
   border: 1px solid black;
   padding: 20px;
+  margin-top: 5px;
+  margin-right: 5px;
 }
 
 .login:active {
@@ -34,4 +38,96 @@ body {
 
 .login:hover {
   cursor: pointer;
+}
+
+
+
+
+.navbar li:hover {
+  cursor: pointer;
+}
+
+.logo {
+  border: 5px solid black;
+  font-size: 50px;
+  margin-top: 16px;
+  font-family: cursive;
+  background-color: antiquewhite;
+}
+
+.logo:active {
+  background-color: blue;
+}
+
+.navbar li {
+  border: 2px solid black;
+  padding: 4px;
+  font-size: 40px;
+  margin-top: 11px;
+}
+
+.navbar li:active {
+  position: relative;
+  top: 5px;
+}
+
+
+.green {
+  background-color: #00cc00;
+}
+
+.red {
+  background-color: #ff8566;
+}
+
+.blue {
+  background-color: #0099ff;
+}
+
+.green:active {
+  background-color: green;
+}
+
+.red:active {
+  background-color: red;
+}
+
+.blue:active {
+  background-color: blue;
+}
+
+
+
+.login {
+  background-color: teal;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.login:active {
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  color: red;
+}
+
+p {
+  font-size: 25px;
+}
+
+.logo,
+.nav {
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.link {
+  text-decoration: underline blue;
+  color: blue;
 }
