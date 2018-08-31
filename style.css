@@ -29,6 +29,7 @@ body {
   padding: 20px;
   margin-top: 5px;
   margin-right: 5px;
+  height: 20px;
 }
 
 .login:active {
@@ -106,6 +107,7 @@ body {
 
 .login:active {
   background-color: white;
+  color: black;
 }
 
 a {
@@ -114,7 +116,7 @@ a {
 }
 
 a:active {
-  color: red;
+  color: white;
 }
 
 p {
