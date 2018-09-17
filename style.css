@@ -133,3 +133,24 @@ p {
   text-decoration: underline blue;
   color: blue;
 }
+
+footer,
+footer ul li {
+  display: inline-block;
+}
+
+.footerBar li {
+  padding: 0px 20px;
+  font-size: 20px;
+}
+
+.footerLogo {
+  position: relative;
+  left: 300px;
+  bottom: 40px;
+  font-size: 20px;
+}
+
+footer a {
+  text-decoration: underline;
+}
