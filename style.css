@@ -135,10 +135,25 @@ p {
 }
 
 footer{
+  position: relative;
   background-color: white;
   display: flex;
   border: 3px solid black;
   border-radius: 20px;
+  animation-name: footer;
+  animation-duration: 1s;
+  opacity: 1;
+}
+
+@keyframes footer{
+  0%{
+    top: 200px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
 }
 
 footer ul,
